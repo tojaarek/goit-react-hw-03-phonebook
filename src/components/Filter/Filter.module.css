@@ -1,0 +1,26 @@
+.label {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  width: 300px;
+}
+
+.input {
+  font-weight: 700;
+  color: #e8df5f;
+  padding: 0 5px;
+  border: 3px solid #e8df5f;
+  background: rgb(47, 47, 47);
+  border-radius: 6px;
+  height: 30px;
+  outline: none;
+  margin-top: 2px;
+  margin-bottom: 40px;
+}
+
+.input:focus {
+  background: #e8df5f;
+  color: rgb(47, 47, 47);
+}

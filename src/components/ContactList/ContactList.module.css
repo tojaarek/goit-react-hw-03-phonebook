@@ -1,0 +1,33 @@
+.list {
+  width: 100%;
+}
+
+.item {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  border: 3px solid #e8df5f;
+  color: #e8df5f;
+  background: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e8df5f;
+  color: rgb(47, 47, 47);
+}
+
+.empty {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
